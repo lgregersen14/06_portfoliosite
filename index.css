@@ -1,0 +1,165 @@
+html,
+body {
+  background-color: white;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+header {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+}
+@media (min-width: 900px) {
+  .box_1 {
+    width: 1281px;
+    height: 413px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 20px 20px;
+    background: #2653f5;
+    position: absolute;
+  }
+  .box_2 {
+    width: 905px;
+    height: 610px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #ed6c38;
+    position: absolute;
+    justify-content: end;
+    right: 0;
+  }
+  .box_3 {
+    width: 331px;
+    height: 413px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 20px 20px;
+    background: rgba(104, 38, 245, 0.25);
+    z-index: 1;
+  }
+  .box_4 {
+    width: 375px;
+    height: 224px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 20px 20px;
+    background: #6f2dfa;
+    mix-blend-mode: hard-light;
+    z-index: 1;
+    position: absolute;
+    top: 17rem;
+    left: 70%;
+  }
+  .flex_box {
+    display: flex;
+    position: relative;
+  }
+  .tekst {
+    position: relative;
+  }
+  #overskrift_1 {
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    z-index: 1;
+    stroke: white;
+    -webkit-text-fill-color: rgba(64, 65, 245, 0.25);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    position: absolute;
+    left: 3.5%;
+    top: 6rem;
+  }
+  #overskrift_2 {
+    color: #fff;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    z-index: 1;
+    width: 465px;
+    position: absolute;
+    left: 3rem;
+    top: 2rem;
+  }
+  #loading-container {
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: normal;
+    z-index: 1;
+    top: 7rem;
+    left: 3rem;
+    font-weight: 900;
+    font-size: 75px;
+    position: absolute;
+  }
+}
+@media (max-width: 900px) {
+  .box_1 {
+    width: 100vw;
+    height: 100vh;
+    background: #2653f5;
+    position: absolute;
+    margin: 0;
+  }
+  #loading-container {
+    font-weight: 900;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: normal;
+    z-index: 1;
+    top: 25rem;
+    left: 2rem;
+    font-weight: 900;
+    font-size: 58px;
+    position: absolute;
+    color: white;
+  }
+  #overskrift_1 {
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    z-index: 1;
+    stroke: white;
+    -webkit-text-fill-color: rgba(64, 65, 245, 0.25);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 26rem;
+  }
+  .box_2 {
+    width: 905px;
+    height: 100vh;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #ed6c38;
+    position: absolute;
+    justify-content: end;
+    right: 0;
+  }
+  .box_4 {
+    width: 375px;
+    height: 224px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 20px 20px;
+    background: #6f2dfa;
+    mix-blend-mode: hard-light;
+    z-index: 1;
+    position: absolute;
+    top: 11rem;
+    left: -44%;
+  }
+}
